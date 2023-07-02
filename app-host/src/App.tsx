@@ -47,7 +47,7 @@ const App = () => {
         </span>
       </div>
 
-      <div className="py-20 px-24 text-justify bg-zinc-900 opacity-90">
+      <div className="py-20 px-24 text-center bg-zinc-900 opacity-90">
         <p className="text-white">
           Scroll up and down to really get the feeling of how Parallax Scrolling
           works.
@@ -63,7 +63,7 @@ const App = () => {
         </span>
       </div>
 
-      <div className="py-20 px-24 text-justify bg-zinc-900 opacity-90">
+      <div className="py-20 px-24 text-center bg-zinc-900 opacity-90">
         <p className="text-white">
           Scroll up and down to really get the feeling of how Parallax Scrolling
           works.
@@ -71,7 +71,7 @@ const App = () => {
       </div>
 
       <div
-        className="background-img h-[600px] relative opacity-60 bg-cover bg-no-repeat bg-center bg-fixed"
+        className="background-img h-[600px] relative bg-cover bg-no-repeat bg-center bg-fixed"
         style={{ backgroundImage: `url("${House}")` }}
       >
         <span className="absolute left-[25%] top-[35%] max-h-[25%] tracking-widest text-center w-[50%] bg-black">
